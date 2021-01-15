@@ -7,6 +7,7 @@ will clone only master branche
 ```git
 git clone https://github.com/RooBarsic/GitHints.git
 ```
+
 will clone branch with name "branch_name"
 ```git
 git clone --branch branch_name https://github.com/RooBarsic/GitHints.git        -  
@@ -15,29 +16,29 @@ git clone --branch branch_name https://github.com/RooBarsic/GitHints.git        
 # day 1 
 push changes to remote repository
 
-check the changes
+* check the changes
 ```git
 git status
 ```
 
-add files to index in order to make commit
+* add files to index in order to make commit
 ```git
 git add .   - will add all changed files to index
 git add [path to file]     - will add exactly file to index
 git reset [path to file]   - will remove exactly file from index
 ```
 
-make sure that all necessary files are added
+* make sure that all necessary files are added
 ```git
 git status
 ```
 
-make loacal commit with message
+* make loacal commit with message
 ```git
 git commit -m "[commit message]"       - will make commit with given message
 ```
 
-push commit to the remote repository
+* push commit to the remote repository
 ```git
 git push origin HEAD
 ```

@@ -45,38 +45,31 @@ git push origin HEAD
 
 
 # day 2
-
 chage message of last pushed commit 
 
-
-
-git commit --amend -m "[New commit message.]"
-
+```git
+git commit --amend -m "NewCommitMessage"
 git push --force origin HEAD
-
+```
 
 
 # day 3
 remove some files from last pushed commit 
 
-
-
-move back HEAD to previous commit
-
+* move back HEAD to previous commit
+```git
 git reset --soft HEAD~1
-
-
-
-check the changes
-
+```
+* check the changes
+```git
 git status
-
-
-
-remove useless files from this commit
-
+```
+* remove useless files from this commit
+```git
 git reset [path to file]
-
-
-
+```
+* push changes to remote repository
+```git
 git push --force origin HEAD
+```
+

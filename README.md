@@ -26,11 +26,18 @@ git  checkout  BranchName
 ```git
 git  branch  NewBranchName
 ```
+* remove branch if you made mistake in branch name, or you come up with better idea of branch name
+```git
+git  branch  -D  NewBranchName
+```
+* check is there your NewBranchName in branches that you already have
+```git
+git  branch
+```
 * Move to the created branch
 ```git
 git  checkout  NewBranchName
 ```
-
 # day 2: Make commit and push changes to remote repository
 
 * check the changes

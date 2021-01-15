@@ -5,41 +5,41 @@ Hints for daily faced challenges in git.
 
 will clone only master branche
 ```git
-git clone https://github.com/RooBarsic/GitHints.git
+git  clone  https://github.com/RooBarsic/GitHints.git
 ```
 
 will clone branch with name "branch_name"
 ```git
-git clone --branch branch_name https://github.com/RooBarsic/GitHints.git        -  
+git  clone  --branch  branch_name  https://github.com/RooBarsic/GitHints.git        -  
 ```
 
 # day 1: Make commit and push changes to remote repository
 
 * check the changes
 ```git
-git status
+git  status
 ```
 
 * add files to index in order to make commit
 ```git
-git add .   - will add all changed files to index
-git add [path to file]     - will add exactly file to index
-git reset [path to file]   - will remove exactly file from index
+git  add  .   - will add all changed files to index
+git  add  PathToFile     - will add exactly file to index
+git  reset  PathToFile   - will remove exactly file from index
 ```
 
 * make sure that all necessary files are added
 ```git
-git status
+git  status
 ```
 
 * make loacal commit with message
 ```git
-git commit -m "[commit message]"       - will make commit with given message
+git  commit  -m  "commit_message"       - will make commit with given message
 ```
 
 * push commit to the remote repository
 ```git
-git push origin HEAD
+git  push  origin  HEAD
 ```
 
 
@@ -47,7 +47,7 @@ git push origin HEAD
 
 ```git
 git commit --amend -m "NewCommitMessage"
-git push --force origin HEAD
+git  push  --force  origin  HEAD
 ```
 
 
@@ -55,18 +55,18 @@ git push --force origin HEAD
 
 * move back HEAD to previous commit
 ```git
-git reset --soft HEAD~1
+git  reset  --soft  HEAD~1
 ```
 * check the changes
 ```git
-git status
+git  status
 ```
 * remove useless files from this commit
 ```git
-git reset [path to file]
+git  reset  PathToFile
 ```
 * push changes to remote repository
 ```git
-git push --force origin HEAD
+git  push  --force  origin  HEAD
 ```
 

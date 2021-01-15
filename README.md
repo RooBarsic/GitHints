@@ -22,9 +22,9 @@ git  status
 
 * add files to index in order to make commit
 ```git
-git  add  .   - will add all changed files to index
-git  add  PathToFile     - will add exactly file to index
-git  reset  PathToFile   - will remove exactly file from index
+git  add  .               - will add all changed files to index
+git  add  PathToFile      - will add exactly file to index
+git  reset  PathToFile    - will remove exactly file from index
 ```
 
 * make sure that all necessary files are added

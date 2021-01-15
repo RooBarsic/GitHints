@@ -1,7 +1,7 @@
 # GitHints
 Hints for daily faced challenges in git.
 
-# day 0: Clone some branch from remote repository
+# day 0: Clone branch from remote repository
 
 will clone only master branche
 ```git
@@ -13,8 +13,7 @@ will clone branch with name "branch_name"
 git clone --branch branch_name https://github.com/RooBarsic/GitHints.git        -  
 ```
 
-# day 1 
-push changes to remote repository
+# day 1: Make commit and push changes to remote repository
 
 * check the changes
 ```git
@@ -44,8 +43,7 @@ git push origin HEAD
 ```
 
 
-# day 2
-chage message of last pushed commit 
+# day 2: Chage message of last pushed commit 
 
 ```git
 git commit --amend -m "NewCommitMessage"
@@ -53,8 +51,7 @@ git push --force origin HEAD
 ```
 
 
-# day 3
-remove some files from last pushed commit 
+# day 3: Remove some files from last pushed commit 
 
 * move back HEAD to previous commit
 ```git

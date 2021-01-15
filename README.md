@@ -13,7 +13,25 @@ will clone branch with name "branch_name"
 git  clone  --branch  branch_name  https://github.com/RooBarsic/GitHints.git        -  
 ```
 
-# day 1: Make commit and push changes to remote repository
+# day 1: Create new branch
+* check branches that you already have
+```git
+git  branch
+```
+* Move to the base branch from which you want to create new branch ( usually it's master branch )
+```git
+git  checkout  BranchName
+```
+* create new branch
+```git
+git  branch  NewBranchName
+```
+* Move to the created branch
+```git
+git  checkout  NewBranchName
+```
+
+# day 2: Make commit and push changes to remote repository
 
 * check the changes
 ```git
@@ -43,7 +61,7 @@ git  push  origin  HEAD
 ```
 
 
-# day 2: Chage message of last pushed commit 
+# day 3: Chage message of last pushed commit 
 
 ```git
 git  commit  --amend  -m  "NewCommitMessage"
@@ -51,7 +69,7 @@ git  push  --force  origin  HEAD
 ```
 
 
-# day 3: Remove some files from last pushed commit 
+# day 4: Remove some files from last pushed commit 
 
 * move back HEAD to previous commit
 ```git

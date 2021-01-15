@@ -6,7 +6,7 @@ Hints for daily faced challenges in git.
 will clone only master branche
 ```git
 git clone https://github.com/RooBarsic/GitHints.git
-
+```
 will clone branch with name "branch_name"
 ```git
 git clone --branch branch_name https://github.com/RooBarsic/GitHints.git        -  

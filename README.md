@@ -4,34 +4,32 @@ Hints for daily faced challenges in git.
 # day 1 
 push changes to remote repository
 
-```check the changes
+check the changes
+```git
 git status
 ```
 
-
-```add files to index in order to make commit
+add files to index in order to make commit
+```git
 git add .   - will add all changed files to index
 git add [path to file]     - will add exactly file to index
 git reset [path to file]   - will remove exactly file from index
 ```
 
-
 make sure that all necessary files are added
-
+```git
 git status
-
-
+```
 
 make loacal commit with message
-
+```git
 git commit -m "[commit message]"       - will make commit with given message
-
-
+```
 
 push commit to the remote repository
-
+```git
 git push origin HEAD
-
+```
 
 
 # day 2

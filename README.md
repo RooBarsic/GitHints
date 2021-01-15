@@ -46,7 +46,7 @@ git  push  origin  HEAD
 # day 2: Chage message of last pushed commit 
 
 ```git
-git commit --amend -m "NewCommitMessage"
+git  commit  --amend  -m  "NewCommitMessage"
 git  push  --force  origin  HEAD
 ```
 

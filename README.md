@@ -1,6 +1,17 @@
 # GitHints
 Hints for daily faced challenges in git.
 
+# day 0: Clone some branch from remote repository
+
+will clone only master branche
+```git
+git clone https://github.com/RooBarsic/GitHints.git
+
+will clone branch with name "branch_name"
+```git
+git clone --branch branch_name https://github.com/RooBarsic/GitHints.git        -  
+```
+
 # day 1 
 push changes to remote repository
 
